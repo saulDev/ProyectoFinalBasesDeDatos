@@ -30,6 +30,8 @@ namespace Final
             if (authenticated)
             {
                 MessageBox.Show("Bienvenido.");
+                Girls girlsWindow = new Girls();
+                girlsWindow.Show();
             }
             else
                 MessageBox.Show("Password o usuario incorrectos.");

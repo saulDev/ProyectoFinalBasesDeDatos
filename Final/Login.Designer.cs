@@ -41,14 +41,14 @@
             this.txtPwd.Name = "txtPwd";
             this.txtPwd.PasswordChar = '*';
             this.txtPwd.Size = new System.Drawing.Size(100, 20);
-            this.txtPwd.TabIndex = 0;
+            this.txtPwd.TabIndex = 1;
             // 
             // txtUser
             // 
             this.txtUser.Location = new System.Drawing.Point(88, 54);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(100, 20);
-            this.txtUser.TabIndex = 1;
+            this.txtUser.TabIndex = 0;
             // 
             // label1
             // 
@@ -73,12 +73,12 @@
             this.btbLogin.Location = new System.Drawing.Point(72, 167);
             this.btbLogin.Name = "btbLogin";
             this.btbLogin.Size = new System.Drawing.Size(129, 23);
-            this.btbLogin.TabIndex = 4;
+            this.btbLogin.TabIndex = 2;
             this.btbLogin.Text = "Iiniciar";
             this.btbLogin.UseVisualStyleBackColor = true;
             this.btbLogin.Click += new System.EventHandler(this.btbLogin_Click);
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,7 +88,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.txtPwd);
-            this.Name = "Form1";
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
